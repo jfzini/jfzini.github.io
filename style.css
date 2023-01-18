@@ -1,0 +1,67 @@
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #2C302E;
+    color: rgba(240, 248, 255, 0.856);
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+
+p,h2, h3, h4, ul, ol, img {
+    font-size: 18px;
+    margin-left: 40px;
+    
+}
+
+p, ul, ol{
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 25px;
+    color: #FF8811;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 21px;
+    color: #F2545B;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: 400;
+}
+.fakeButton {
+    color: rgba(240, 248, 255, 0.856);
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black, 0 0 0.3em black;
+    text-decoration: none;
+    background-color: #C14953;
+    padding: 10px 40px;
+    line-height: 60px;
+    border-radius: 5px;
+}
+a {
+    color: rgba(240, 248, 255, 0.856);
+    text-decoration: none;
+    font-weight: 600;
+}
+.oddDiv {
+    text-align: justify;
+}
+.evenDiv {
+    background-color: #474A48;
+    text-align: justify;
+}
+
