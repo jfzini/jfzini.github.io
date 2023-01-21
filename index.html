@@ -2,71 +2,105 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio de Zini</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>João Felipe Zini</title>
 </head>
 <body>
-
-<div class="oddDiv" id="header">
-    <h1>João Felipe Zini</h1>
-    <img src="recursos/Foto de perfil.jpeg"" alt="Foto de João Felipe Zini, homem branco, de aparência jovem, cabelos pretos, óculos, sorrindo. Usa terno, sendo blazer preto e camisa azul claro, gravata vermelha com pequenos pontos brancos" id="profile-picture">
-    <div>
-        <p class="header-description">Olá, me chamo João Felipe Zini e este é um portfólio em constante desenvolvimento. <br>
-            Sou natural de Montes Claros/MG mas moro em Belo Horizonte desde 2012, quando me mudei para me formar em Direito pela UFMG.<br>Atualmente sou mestre e doutorando em Direito pela mesma instituição e comecei a minha transição de carreira para <em>desenvolvimento FullStack na Trybe!</em></p>
-    </div>    
-</div>
-
-<div class="evenDiv">
-    <h2>Para pular para alguma seção específica deste Portfolio basta clicar nos links internos abaixo:</h2>
-    <ul>
-        <li><a href="#carreira" class="fakeButton">Carreira</a></li>
-        <li><a href="#competencias" class="fakeButton">Competências</a></li>
-        <li><a href="#interesses" class="fakeButton">Interesses</a></li>
-    </ul>
-</div>
-
-<div class="oddDiv">
-    <h3 id="carreira">Carreira</h3>
-    <p>Apesar da transição de carreira, tenho muito orgulho da minha <strong>Dissertação de Mestrado</strong>, em que pesquisei a realidade de trabalho de pessoas trans e trevestis, estabelecendo uma relação com o Direito do Trabalho.<br>Mais de 1000 pessoas espalhadas pelo mundo já conferiram. Para acessar, basta clicar <a href="https://repositorio.ufmg.br/handle/1843/DIRS-BCA2MH" target="_blank">aqui</a>.</p>
-</div>
-
-<div class="evenDiv">
-    <h3 id="competencias">Competências</h3>
-    <p>Ao longo da minha formação pessoal e profissional tive oportunidade de desenvolver algumas capacidades como:</p> <br>    
-    <h4>Soft Skills</h4>
-    <ol>
-        <li>Autogestão</li>
-        <li>Gestão de pessoas</li>
-        <li>Public speaking</li>
-        <br>
-    </ol>
-    
-
-    <h4>Hard Skills</h4>
-    <ol>
-        <li>Unix</li>
-        <li>Bash/Shell</li>
-        <li>Git</li>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ol>
-</div>
-
-<div class="oddDiv">
-    <h3 id="interesses">Interesses</h3>
-    <p>Sempre fui uma pessoa ávida por tecnologia, pesquisa, cultura pop e games. <br>
-    Tenho algum orgulho em ser um bom jogador de World of Warcraft e, se tiver interesse, os logs e parses de minha progressão estão disponíveis no links abaixo:
-</p><br>
-    <a href="https://www.warcraftlogs.com/character/us/azralon/Falith%C3%A4s" target="_blank"><img src="https://assets.rpglogs.com/img/warcraft/header-logo.png" alt="logomarca warcraftlogs" width="50px"></a>
-    <a href="https://raider.io/characters/us/azralon/Falith%C3%A4s" target="_blank"><img src="https://assets.tiltify.com/uploads/user/thumbnail/422928/blob-e0339895-0e78-4453-8d81-4f06fb917df8.png" alt="logomarca raider.io" width="50px"></a>
-    <a href="https://worldofwarcraft.com/en-us/character/us/azralon/Falith%C3%A4s" target="_blank"><img src="https://logos-download.com/wp-content/uploads/2016/02/WOW_logo.png" alt="logomarca world of warcraft" width="50px"></a>
-    <br>
-    <br>
-</div>
-
+    <header id="cabecalho">
+        <h1 id="titulo">João Felipe Zini</h1>
+    </header>
+    <main>
+        <aside class="lado-esquerdo">
+            <p id="bio-abstract">Olá, me chamo João Felipe Zini <br>
+            Atualmente sou <a href="https://repositorio.ufmg.br/handle/1843/DIRS-BCA2MH" target="_blank">mestre</a> e doutorando em Direito pela mesma instituição, mas comecei minha transição de carreira para desenvolvimento FullStack na Trybe!</p>
+        </aside>
+        <div id="introduction"></div>
+            <section>
+                <img src="./Foto de perfil.jpeg" alt="Foto de João Felipe Zini, aparentando ser um jovem adulto, homem de pele clara, cabelos curtos pretos, sorrindo, vestindo um terno preto com camisa azul claro e gravata vermelha com pontos brancos." id="minha_foto">
+            </section>
+          <div id="introduction-article">
+            <article>
+              Ao longo da minha nova formação na Trybe já comecei a desenvolver habilidades em Unix, Shell, JavaScript, HTML (e seus usos semânticos), CSS (incluindo display flex, overflow e position). Mas sigo querendo desenvolver muito mais essas habilidades, bem como aprender novas, como MySQL, MongoDB e Go como é possível conferir nas listas ao lado.
+            </article>
+            <p>
+              De todo modo, estou em um momento de transição de carreira. Desde 2012, quando saí do interior para estudar Direito em Belo Horizonte, tenho me dedicado ao estudo da ciência jurídica, à qual tenho bastante apreço (e apreensão). Mas me sentia deslocado no ramo e daquilo que era esperado de mim. Assim, acabei seguindo uma carreira mais acadêmica, com bastantes projetos de pesquisa e extensão, chegando a coordenar alguns, o que me trouxe experiências variadas e considerável empatia.
+            </p>
+            <p>
+              Minhas atividades de pesquisa sempre foram direcionadas para a relação do Direito com pessoas estigmatizadas, em especial no tocante ao gênero e à sexualidade. Em meu TCC falei sobre a desnecessidade de se regulamentar a atividade de profissionais do sexo para que seus Direitos Trabalhistas sejam plenamente reconhecimento no ordenamento jurídico brasileiro. Já no mestrado, a minha pesquisa pautou a relação entre travestis e transexuais com seus respectivos empregadores, os resultados foram publicados e eu tenho orgulho deles, que podem ser conferidos <a href="https://repositorio.ufmg.br/handle/1843/DIRS-BCA2MH" target="_blank">clicando aqui</a>.
+            </p>
+            <p>
+              Após o mestrado tive uma certa crise a respeito das escolhas que fiz profissionalmente e, naquela época, a Trybe estava surgindo. Cheguei a me inscrever no processo seletivo (e, se não me engano, as aulas eram presenciais), mas logo tive a notícia da aprovação no doutorado e tomei a decisão, naquele momento, de dar mais uma chance à vida acadêmica. Entretanto, a Trybe sempre permaneceu em mente. Tanto que, em 2021, meu namorado (que também era jurista), estava com pretensão de migrar para a programação e logo indiquei a Trybe. Ele deu uma olhada, gostou, se inscreveu, passou, formou e agora trabalha em condições muito melhores que as anteriores.
+            </p>
+            <p>
+              E agora chegou minha vez de tomar a coragem de fazer uma mudança de carreira, já quase com o doutorado nas costas, em busca de felicidade e realização profissional.
+            </p>
+            <p>
+              Seguimos.
+            </p>
+          </div>
+        </div>
+        <div id="lessons" class="lado-direito">
+            <p>
+                Conheço um pouco de:
+            </p>
+            <ol id="licoes_aprendidas">
+                <li>UNIX</li>
+                <li>BASH</li>
+                <li>SHELL</li>
+                <li>JAVASCRIPT</li>
+                <li>HTML</li>
+                <li>HTML SEMÂNTICO</li>
+                <li>CSS</li>
+                <li>DISPLAY FLEX</li>
+                <li>OVERFLOW</li>
+                <li>POSITION</li>
+            </ol>
+            <p>
+                Quero aprender:
+            </p>
+            <ul id="licoes_a_aprender">
+                <li>MAIS JAVASCRIPT</li>
+                <li>MAIS HTML</li>
+                <li>MAIS HTML SEMÂNTICO</li>
+                <li>MAIS CSS</li>
+                <li>MAIS DISPLAY FLEX</li>
+                <li>MYSQL</li>
+                <li>GOLANG</li>
+                <li>NODE.JS</li>
+                <li>MONGODB</li>
+                <li>API'S</li>
+            </ul>
+            <table>
+              <tr>
+                  <th>Direito</th>
+                  <th>Mestrado</th>
+                  <th>Doutorado</th>
+                  <th>FullStack Developer</th>
+              </tr>
+              <tr>
+                  <td>Done</td>
+                  <td>Done</td>
+                  <td>In progress</td>
+                  <td>In progress</td>
+              </tr>
+          </table>
+        </div>
+    </main>
+    <footer id="rodape">
+      <div id="footnote">
+        <p>
+        Mais sobre mim:
+        </p>
+        <a href="https://www.linkedin.com/in/jfzini/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Logo LinkedIn"></a>
+        <a href="https://github.com/jfzini" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Logo GitHub"></a>
+        <a href="https://www.instagram.com/jfzini/" target="_blank"><img src="https://www.brunopalmahidroponia.com.br/wp-content/uploads/2020/07/logo-instagram-png-fundo-transparente.png" alt="Logo Instagram"></a>
+        <a href="http://lattes.cnpq.br/1835337694264483" target="_blank"><img src="https://www.ufpb.br/ppgs/contents/imagens/logo-lattes.png/@@images/image.png" alt="Logo Lattes"></a>
+        <a href="https://www.warcraftlogs.com/character/us/azralon/Falith%C3%A4s" target="_blank"><img src="https://assets.rpglogs.com/img/warcraft/header-logo.png" alt="Logo WarcraftLogs"></a>
+      </div>
+    </footer>
 </body>
 </html>
