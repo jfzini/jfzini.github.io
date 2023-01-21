@@ -1,67 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Raleway, sans-serif;
+  color: rgb(15, 15, 15);
+}
+
 body {
-    font-family: 'Alegreya Sans', sans-serif;
-    background-color: #2C302E;
-    color: rgba(240, 248, 255, 0.856);
-    text-align: justify;
-    margin-left: 0%;
-    margin-right: 0%;
-
-}
-h1{
-    text-align: center;
-    font-size: 40px;
-    line-height: 100px;
+  background-color: rgb(224, 224, 224);
 }
 
-
-p,h2, h3, h4, ul, ol, img {
-    font-size: 18px;
-    margin-left: 40px;
-    margin-right: 40px;
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  font-weight: 100;
+  padding-left: 40px;
+  background-color: black;
 }
 
-p, ul, ol{
-    font-weight: 300;
+section {
+  text-indent: 0;
+  margin-left: -40px;
 }
 
-h2 {
-    font-size: 25px;
-    color: #FF8811;
-    line-height: 60px;
+h1 {
+  color: white;
+  background-color: black;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 70px;
+  margin-bottom: 5px;
 }
 
-h3 {
-    font-size: 21px;
-    color: #F2545B;
-    line-height: 50px;
-    font-weight: 700;
+aside {
+  padding-left: 20px;
+  width: 10%;
+  line-height: 25px;
+  font-weight: 600;
 }
 
-.header {
-    font-size: 20px;
-    font-weight: 400;
-}
-.fakeButton {
-    color: rgba(240, 248, 255, 0.856);
-    font-weight: 700;
-    font-size: 20px;
-    text-shadow: 1px 1px 1px black, 0 0 0.3em black;
-    text-decoration: none;
-    background-color: #C14953;
-    padding: 10px 40px;
-    line-height: 60px;
-    border-radius: 5px;
-}
 a {
-    color: rgba(240, 248, 255, 0.856);
-    text-decoration: none;
-    font-weight: 600;
-}
-.oddDiv {
-    text-align: justify;
-}
-.evenDiv {
-    background-color: #474A48;
-    text-align: justify;
+  text-decoration: none;
+  font-weight: 700;
 }
 
+main a:hover {
+  background-color: black;
+  color: white;
+}
+
+main img {
+  border-radius: 100px;
+  width: 200px;
+  box-shadow: 7px 7px 7px grey;
+}
+
+main {
+  padding-top: 160px;
+  display: flex;
+  align-items: top;
+  justify-content: space-evenly;
+  text-indent: 45px;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+footer p {
+  color: white;
+  padding: 20px 0 25px 40px;
+  font-size: 22px;
+}
+
+footer img {
+  width: 40px;
+  margin: 0 0 25px 40px;
+  background-color: white;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+
+#introduction-article {
+  width: 40%;
+  line-height: 35px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+#lessons {
+  width: 20%;
+}
+
+#bio-abstract {
+  text-indent: 0;
+}
+
+#footnote {
+  background-color: black;
+}
+
+ul , ol {
+  margin: 20px;
+  list-style: none;
+}
+
+table {
+  background-color: black;
+  text-align: center;
+  margin-top: 60px;
+}
+
+th {
+  background-color: rgb(197, 197, 197);
+  width: 100px;
+}
+
+td {
+  background-color: white;
+}
+
+.right-side p {
+  font-weight: 700;
+  font-size: 20px;
+}
